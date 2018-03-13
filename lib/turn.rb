@@ -1,4 +1,5 @@
 def turn(board)
+  counter = 0
   while counter < 10
     puts "Please enter 1-9:"
     input = gets.chomp
